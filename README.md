@@ -85,17 +85,6 @@ All assumptions stated explicitly. Win-back rates based on industry benchmarks.
 
 **Source:** [Olist Brazilian E-Commerce Public Dataset — Kaggle]()
 
-| File | Rows | Description |
-|------|------|-------------|
-| olist_orders_dataset.csv | 99,441 | Order status and timestamps |
-| olist_order_items_dataset.csv | 112,650 | Product-level pricing and freight |
-| olist_order_payments_dataset.csv | 103,886 | Payment methods and installments |
-| olist_customers_dataset.csv | 99,441 | Customer geography |
-| olist_order_reviews_dataset.csv | 99,224 | Review scores and comments |
-| olist_products_dataset.csv | 32,951 | Product details and categories |
-| olist_sellers_dataset.csv | 3,095 | Seller geography |
-| product_category_name_translation.csv | 71 | Portuguese → English category names |
-
 **Critical data note:** The dataset contains two customer ID columns. `customer_id` changes with every order (session-level). `customer_unique_id` stays constant per person. All RFM analysis uses `customer_unique_id`. 
 
 ---
